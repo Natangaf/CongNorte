@@ -31,19 +31,19 @@ import { external, document } from "../../assets/icons";
 
 const Pioneiro = () => {
   const navigate = useNavigate();
-  const { id } = useParams();
+  const { name } = useParams();
   const [data, setData] = useState<IPionner | null>(null);
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
     const fetchData = async () => {
       try {
-        if (!id) {
+        if (!name) {
           navigate("/Pioneiros");
           return;
         }
 
-        const foundData = pionner.find((pioneiro) => `${pioneiro.id}` === id);
+        const foundData = pionner.find((pioneiro) => pioneiro.nome === name);
 
         if (!foundData) {
           navigate("/Pioneiros");
@@ -60,7 +60,7 @@ const Pioneiro = () => {
     };
 
     fetchData();
-  }, [id, navigate]);
+  }, [name, navigate]);
 
   const calculateYearsFrom = (start: string) => {
     const startDate = new Date(start);
@@ -98,7 +98,7 @@ const Pioneiro = () => {
                   {data.title} - Experiencia de {data.nome}
                 </Title>
                 <MainBiography data-com="MainBiography">
-                  {data.biografia.split(".").map((sentence, index, array) => (
+                  {data.biografia.split(".  ").map((sentence, index, array) => (
                     <p key={index}>
                       {sentence.trim()}
                       {index !== array.length - 1 && "."}
@@ -113,15 +113,15 @@ const Pioneiro = () => {
                   </DidYouKnowTitle>
                 </DidYouKnowHeader>
                 <DidYouKnowMain data-com="DidYouKnowMain">
-                  <p>
+                  <li>
                     <b> {data.nome}</b> se batizou em
                     <span> {data.batismo}</span> e ingressou no serviço de
                     pioneiro em <span>{data.pioneiro}</span>.
-                  </p>
-                  <p>
+                  </li>
+                  <li>
                     Atualmente, ela está no serviço de pioneiro há
                     <span> {calculateYearsFrom(data.pioneiro)} anos</span>.
-                  </p>
+                  </li>
                 </DidYouKnowMain>
               </DidYouKnow>
             </Biography>

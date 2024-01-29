@@ -92,14 +92,18 @@ export const DidYouKnowTitle = styled.h2`
   font-weight: 600;
 `;
 
-export const DidYouKnowMain = styled.div`
+export const DidYouKnowMain = styled.ul`
   width: 100%;
   padding: 20px;
 
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: center;
   gap: 30px;
+
+  li {
+    width: 90%;
+  }
 `;
 export const AddInfomation = styled.section`
   width: 30%;
@@ -143,7 +147,7 @@ export const ContainerText = styled.div`
   width: 30%;
   position: relative;
 
-  ${media.tablet}{
+  ${media.tablet} {
     width: 50%;
   }
   img[data-com="ImgAddInfomation"] {
@@ -152,7 +156,7 @@ export const ContainerText = styled.div`
 `;
 export const ImgAddInfomation = styled.img`
   width: 30%;
-  ${media.tablet}{
+  ${media.tablet} {
     width: 50%;
   }
 `;
@@ -165,7 +169,7 @@ export const AddInfomationDowl = styled.article`
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  ${media.mobile}{
+  ${media.mobile} {
     width: 30%;
   }
 `;
@@ -180,7 +184,7 @@ export const ContainerButtons = styled.div`
   justify-content: center;
   flex-direction: row;
   gap: 20px;
-  ${media.mobile}{
+  ${media.mobile} {
     gap: 5px;
   }
 `;
@@ -196,5 +200,4 @@ export const ButtonIcon = styled.button`
     width: 24px;
     height: 24px;
   }
-
 `;

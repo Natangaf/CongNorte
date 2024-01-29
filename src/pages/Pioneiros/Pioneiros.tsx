@@ -37,7 +37,7 @@ const Pioneiros = () => {
               data-com="Pioneer"
               key={id}
               onClick={() => {
-                navigate(`/Pioneiro/${id}`);
+                navigate(`/Pioneiro/${nome}`);
               }}
             >
               <img src={capa} alt={`profile-${nome}`} />

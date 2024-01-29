@@ -39,21 +39,21 @@ const Pioneiro = () => {
     const fetchData = async () => {
       try {
         if (!name) {
-          navigate("/Pioneiros");
+          navigate("/pioneiros");
           return;
         }
 
         const foundData = pionner.find((pioneiro) => pioneiro.nome === name);
 
         if (!foundData) {
-          navigate("/Pioneiros");
+          navigate("/pioneiros");
           return;
         }
 
         setData(foundData);
       } catch (error) {
         console.error("Error fetching data:", error);
-        navigate("/Pioneiros");
+        navigate("/pioneiros");
       } finally {
         setLoading(false);
       }

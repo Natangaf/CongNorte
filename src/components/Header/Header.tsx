@@ -27,8 +27,8 @@ const Header = () => {
   const handleSearch = () => {
     encontrarPioneirosPorNome(searchTerm);
 
-    if (route.pathname !== "/Pioneiros") {
-      navigate("/Pioneiros");
+    if (route.pathname !== "/pioneiros") {
+      navigate("/pioneiros");
     }
   };
 
@@ -64,11 +64,11 @@ const Header = () => {
             <img src={inicio} alt="" />
             INÍCIO
           </LinkTo>
-          <LinkTo data-com="LinkTo" to="/Pioneiros">
+          <LinkTo data-com="LinkTo" to="/pioneiros">
             <img src={pioneiros} alt="" />
             PIONEIROS
           </LinkTo>
-          <LinkTo data-com="LinkTo" to="/About">
+          <LinkTo data-com="LinkTo" to="/about">
             <img src={about} alt="" />
             ABOUT
           </LinkTo>

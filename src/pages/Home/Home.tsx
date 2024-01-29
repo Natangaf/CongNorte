@@ -39,7 +39,7 @@ const Home = () => {
             <DescriptionTitle data-com="DescriptionTitle">
               Até onde você sabe?
             </DescriptionTitle>
-            <SeeMore to="/Pioneiros" data-com="SeeMore">
+            <SeeMore to="/pioneiros" data-com="SeeMore">
               Encontre um pioneiro
             </SeeMore>
           </DescriptionImg>

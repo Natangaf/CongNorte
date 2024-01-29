@@ -9,8 +9,8 @@ export function RoutePages() {
   return (
     <Routes>
       <Route path="/" element={<Home />} />
-      <Route path="/Pioneiros" element={<Pioneiros />} />
-      <Route path="/Pioneiro/:name" element={<Pioneiro />} />
+      <Route path="/pioneiros" element={<Pioneiros />} />
+      <Route path="/pioneiro/:name" element={<Pioneiro />} />
       <Route path="/about" element={<About />} />
       <Route path="*" element={<Navigate to="/" />} />
     </Routes>

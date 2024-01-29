@@ -172,7 +172,7 @@ export const pionner = [
     pioneiro: "2016",
     title: "Conciliando Perdas e Alegrias: Uma Jornada Pioneira Excepcional",
     biografia:
-      "Enfrentou perdas, mas conciliou serviço pioneiro, trabalho secular, atividades de ancião e cuidado da família. Alegria por ser ferramenta nas mãos de Jeová. Programação semanal.",
+    "Enfrentei alguns desafios como pioneira, incluindo a dor de perder pessoas queridas. No entanto, consegui conciliar o serviço de pioneira com o trabalho secular em tempo integral, além de participar ativamente das atividades como ancião na congregação e cuidar da minha família.Apesar dos obstáculos enfrentados, ser pioneira me proporciona muitas alegrias, especialmente por ser uma ferramenta nas mãos de Jeová. Testemunhar pessoas se aproximando do batismo e poder servir ao lado da minha esposa, e agora também com minha filha, são experiências inestimáveis.A alegria de ser pioneiro é algo indescritível e sem comparação. Para atender aos requisitos do serviço pioneiro, criei uma programação semanal que envolve estudos noturnos e apoio ao campo nos finais de semana.",
   },
   {
     id: 12,

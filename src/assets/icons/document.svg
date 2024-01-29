@@ -1,0 +1,16 @@
+<svg
+  className="svg-inline--fa jwi-document fa-w-16"
+  aria-hidden="true"
+  focusable="false"
+  data-prefix="jwf-jw-icons-external"
+  data-icon="document"
+  role="img"
+  xmlns="http://www.w3.org/2000/svg"
+  viewBox="0 0 24 24"
+  fill="white" 
+  data-fa-i2svg=""
+>
+  <path
+    d="M19.961 6.308a.5.5 0 00-.108-.162l-4.999-4.999A.503.503 0 0014.5 1h-10a.5.5 0 00-.5.5v21a.5.5 0 00.5.5h15a.5.5 0 00.5-.5v-16a.5.5 0 00-.039-.192zM15 2.707L18.293 6H15zM5 22V2h9v4.5a.5.5 0 00.5.5H19v15z"
+  ></path>
+</svg>

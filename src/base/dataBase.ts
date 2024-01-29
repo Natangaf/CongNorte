@@ -1,0 +1,397 @@
+import {
+  Alessandra,
+  Amarildo,
+  Andre,
+  Basilia,
+  Capel,
+  Claudia,
+  Edileide,
+  Emily,
+  Flavia,
+  Hugo,
+  Isabel,
+  Jeane,
+  Kellen,
+  KellyCristina,
+  MariaImaculada,
+  Michelle,
+  Mirelly,
+  NadiaCordeiro,
+  Nara,
+  Natalia,
+  Natalina,
+  Sabrina,
+  Samira,
+  Severino,
+  Simone,
+  Socorro,
+  Stefany,
+  Vania,
+  Vitoria,
+} from "../assets/img/Pioneiros";
+import {
+  capaAlessandra,
+  capaAmarildo,
+  capaAndre,
+  capaBasilia,
+  capaCapel,
+  capaClaudia,
+  capaEdileide,
+  capaEmily,
+  capaFlavia,
+  capaHugo,
+  capaIsabel,
+  capaJeane,
+  capaKellen,
+  capaKellyCristina,
+  capaMariaImaculada,
+  capaMichelle,
+  capaMirelly,
+  capaNadiaCordeiro,
+  capaNara,
+  capaNatalia,
+  capaNatalina,
+  capaSabrina,
+  capaSamira,
+  capaSeverino,
+  capaSimone,
+  capaSocorro,
+  capaStefany,
+  capaVania,
+  capaVitoria,
+} from "../assets/img/PioneirosCapa";
+
+export const pionner = [
+  {
+    id: 1,
+    img: Socorro,
+    capa: capaSocorro,
+    nome: "Socorro",
+    batismo: "1993",
+    pioneiro: "1996",
+    title:
+      "Persistência e Amor: Mantendo o Serviço em Meio a Desafios Familiares",
+    biografia:
+      "Servi como pioneira teve seus desafios como filhos adolescentes e marido opositor mas conseguiu permanecer no serviço e teve muitas alegrias para ela é um imenso privilégio ser pioneira não se vê sem esse trabalho, ser pioneira da uma grande oportunidade de ajudar outros, o serviço de pioneiro  pra ela é amor a Jeová amor a vc mesmo e amor ao próximo.Ela sente muita alegria ser pioneira ela já viu alguns se chegar até o batismo e até algumas dessas estudantes ser até pioneira junto com ela.Para cumprir seu requisito ela diz que tem que fazer arranjos, cedo no dia no mês e no ano sempre fazer mais a cada mês devido imprevistos que possa surgi.",
+  },
+  {
+    id: 2,
+    img: NadiaCordeiro,
+    capa: capaNadiaCordeiro,
+    nome: "Nádia Cordeiro",
+    batismo: "2018",
+    pioneiro: "2023",
+    title: "Equilibrando Amor Maternal e Dedicação Pioneira",
+    biografia:
+      "Mãe de três meninas Ester Vitória e Melissa serve como Pioneira regular desde 2023 junto com seu marido Hugo e agora sua filha VitóriaTeve alguns desafios para servir como Pioneira um deles foi quando sua filha ficou doente hospitalizado e consegui também administrar seu tempo na pregação com cuidar de suas filhas pequenas e no que tudo isso envolve.Mas servir como Pioneira Ele trouxe muitas alegrias uma delas é as experiências incríveis na pregação como por exemplo uma moradora que nunca nos atendia, agora nós escuta e também ser Pioneira ajuda a dar um bom exemplo para suas filhas de servir a Jeová.Para cumprir seu requisito ela faz uma programação para estar nos rurais,apoiar o arranjo do carrinho e escrever cartas e Estudos dia de sábado e Campo à tarde.Ser Pioneira para ela é um sentimento de alegria gratidão poder ajudar outros a conhecer a Jeová",
+  },
+  {
+    id: 3,
+    img: Simone,
+    capa: capaSimone,
+    nome: "Simone",
+    batismo: "2010",
+    pioneiro: "2022",
+    title: "Conciliando Trabalho e Pioneirismo com Amor Filial",
+    biografia:
+      "Mãe de um filho, trabalha fora. Assinou como pioneira enquanto cuidava de sua mãe acamada. Alegria ao ver a mãe estudando a Bíblia, participando de reuniões e congressos pelo Zoom. Programação semanal para cumprir requisitos.",
+  },
+  {
+    id: 4,
+    img: Kellen,
+    capa: capaKellen,
+    nome: "Kellen",
+    batismo: "2001",
+    pioneiro: "2023",
+    title: "Superando Desafios Familiares para Ser Pioneira",
+    biografia:
+      "Mãe de duas crianças e esposa. Superou desafios ao conciliar trabalho, cuidados com filhos e decisão de ser pioneira. Alegria ao ver o progresso de seus filhos. Programação semanal para cumprir requisitos.",
+  },
+  {
+    id: 5,
+    img: Natalina,
+    capa: capaNatalina,
+    nome: "Natalina",
+    batismo: "2001",
+    pioneiro: "2021",
+    title: "Persistência Pioneira em Meio a Desafios e Pandemia",
+    biografia:
+      "Serviu como pioneira, enfrentou desafios com criança pequena e pandemia. Alegrias ao sentir o apoio de Jeová. Programação inclui dias fixos e aleatórios.",
+  },
+  {
+    id: 6,
+    img: Nara,
+    capa: capaNara,
+    nome: "Nara",
+    batismo: "2015",
+    pioneiro: "2023",
+    title: "Vencendo Desafios Pessoais para Ser Pioneira",
+    biografia:
+      "Superou desafios com trabalho secular, criação de filhos e ajustes pessoais. Sentiu alegria e satisfação ao decidir ser pioneira. Adaptação no tempo para cumprir requisitos.",
+  },
+  {
+    id: 7,
+    img: Mirelly,
+    capa: capaMirelly,
+    nome: "Mirelly",
+    batismo: "2017",
+    pioneiro: "2019",
+    title: "Alegria e Satisfação no Pioneirismo Durante a Pandemia",
+    biografia:
+      "Enfrentou desafios durante a pandemia, mas encontrou alegria ao ocupar-se com o serviço pioneiro. Programação semanal para evitar ansiedade. Alegria sem igual e satisfação no serviço de pioneiro.",
+  },
+  {
+    id: 8,
+    img: Natalia,
+    capa: capaNatalia,
+    nome: "Natalia",
+    batismo: "2005",
+    pioneiro: "2021",
+    title:
+      "Enfrentando Desafios Profissionais e Alcançando Alegrias no Pioneirismo",
+    biografia:
+      "Enfrentou desafios trabalhando longe, mas Jeová abençoou para trabalhar mais perto de casa. Alegrias ao estar no campo, estudos e atividades do ministério. Programação semanal.",
+  },
+  {
+    id: 9,
+    img: MariaImaculada,
+    capa: capaMariaImaculada,
+    nome: "Maria Imaculada",
+    batismo: "1992",
+    pioneiro: "2016 (serviço 4 anos antes)",
+    title: "Vencendo a Timidez para uma Jornada Duradoura como Pioneira",
+    biografia:
+      "Superou timidez para permanecer como pioneira. Alegria ao dar o melhor a Jeová. Programação inclui arranjos, início cedo na rua e escrita de cartas.",
+  },
+  {
+    id: 11,
+    img: Andre,
+    capa: capaAndre,
+    nome: "André",
+    batismo: "1999",
+    pioneiro: "2016",
+    title: "Conciliando Perdas e Alegrias: Uma Jornada Pioneira Excepcional",
+    biografia:
+      "Enfrentou perdas, mas conciliou serviço pioneiro, trabalho secular, atividades de ancião e cuidado da família. Alegria por ser ferramenta nas mãos de Jeová. Programação semanal.",
+  },
+  {
+    id: 12,
+    img: Michelle,
+    capa: capaMichelle,
+    nome: "Michelle",
+    batismo: "2007",
+    pioneiro: "2023",
+    title:
+      "Conquistando o Pioneirismo: Uma Jornada de Superar Desafios Pessoais",
+    biografia:
+      "Mãe e esposa, cuida dos sogros e neta. Superou problemas pessoais e inseguranças para se tornar pioneira. Gratidão e sentimento privilegiado. Programação com apoio familiar e de irmãs.",
+  },
+  {
+    id: 13,
+    img: Sabrina,
+    capa: capaSabrina,
+    nome: "Sabrina",
+    batismo: "2013",
+    pioneiro: "2019 e 2024",
+    title:
+      "Alegria na Adversidade: Pioneirismo em Meio a Desafios Médicos e Pandemia",
+    biografia:
+      "Enfrentou desafios com problema médico do pai e pandemia. Sentiu alegria por ser pioneira durante a pandemia. Programação inclui metas semanais e melhorias nas habilidades de revisitas.",
+  },
+  {
+    id: 14,
+    img: Severino,
+    capa: capaSeverino,
+    nome: "Severino",
+    batismo: "1989",
+    pioneiro: "2016",
+    title: "Equilibrando Vida Secular, Familiar e Pioneirismo com Alegria",
+    biografia:
+      "Um dos desafios como pioneiro foi ter equilíbrio entre o trabalho secular, a família e o serviço para Jeová. Apesar dos desafios, teve muitas alegrias, como ajudar um grupo de publicadores em outro estado e ver o resultado desse trabalho. Ser pioneiro lhe dá uma alegria imensa e ajuda a ter mais associação com os irmãos. Para cumprir o requisito, ele tem uma programação equilibrada com os dias de consulta.",
+  },
+  {
+    id: 15,
+    img: Isabel,
+    capa: capaIsabel,
+    nome: "Isabel",
+    batismo: "1978",
+    pioneiro: "2011",
+    title: "Desafios e Alegrias: Uma Pioneira desde 1978",
+    biografia:
+      "Um dos desafios como pioneira era o serviço secular que exigia muito, o requisito de horas de 70, e o medo de não cumprir o que ser pioneira exigia. Além disso, seu marido não era cristão e não entendia o que ela fazia como pioneira. Mas as alegrias superaram os desafios, e ser pioneira a ajudou a aumentar sua relação com Jeová. Ser pioneira lhe traz muita alegria, especialmente ao ajudar as pessoas a conhecerem a Jeová. Para cumprir o requisito, ela faz uma programação semanal de acordo com suas folgas do serviço secular, que mudam a cada semana.",
+  },
+  {
+    id: 16,
+    img: Vitoria,
+    capa: capaVitoria,
+    nome: "Vitória",
+    batismo: "2023",
+    pioneiro: "Janeiro 2024",
+    title: "Jovem Pioneira: Superando Dúvidas para Servir a Jeová",
+    biografia:
+      "Jovem em idade escolar. Para ser pioneira, teve alguns desafios ao pensar que não iria cumprir com o requisito. Ao tomar essa decisão, teve alguns questionamentos, mas tomou a decisão e sentiu a alegria de ver irmãos se colocando à disposição de ajudar. Ela sente muita gratidão a Jeová por tê-la ajudado a realizar esse sonho e felicidade por poder fazer esse trabalho tão importante. Para cumprir com seu serviço de pioneira, ela tenta se programar para fazer 2 horas por dia e assim também cumprir outras responsabilidades, como ajudar sua mãe, estudar tanto para Jeová quanto da escola, e preparar a reunião.",
+  },
+  {
+    id: 17,
+    img: Hugo,
+    capa: capaHugo,
+    nome: "Hugo",
+    batismo: "2019",
+    pioneiro: "2023",
+    title: "Vencendo Desafios para Encontrar Alegria no serviçio de pioneiro",
+    biografia:
+      "Para servir como pioneiro, teve alguns desafios, como programações que nunca davam certo, o serviço que começou a sobrecarregá-lo e outros problemas como pressão no trabalho e ansiedade. Mas teve muitas alegrias, como ver como Jeová nos ajuda a ter o necessário conforme damos de nós a ele. Ser pioneiro não é só levar um título, mas sim levar o remédio para curar toda a doença deste mundo. Ser usado por nosso criador como uma ferramenta de grande precisão e saber que nosso amoroso pai Jeová nos ajuda dá muita alegria e o motiva a continuar. Ser pioneiro significa amar a Jeová, amar o próximo e ajudá-los. Ele sente muita gratidão pelo serviço de pioneiro e acredita que pode gastar mais de si em prol do Reino ao participar ao máximo possível nas atividades.",
+  },
+  {
+    id: 18,
+    img: Stefany,
+    capa: capaStefany,
+    nome: "Stefany",
+    batismo: "2013",
+    pioneiro: "2024",
+    title: "Uma Nova Fase: Jovem Pioneira Iniciando uma Jornada de Alegria",
+    biografia:
+      "Uma jovem que terminou sua fase escolar e está usando seu tempo para fazer mais para Jeová em algumas modalidades de serviço. Acabou de tomar a decisão de ser pioneira, e para ela, agora é uma sensação de uma nova fase se iniciando. Ela sente uma alegria incrível e considera o serviço de pioneira um esforço para fazer o que Jeová pede, ir atrás dos merecedores e ser mais aberta para ajudar outros na congregação. O serviço é encorajador, e ela sente como algo que sempre esteve presente em sua vida.",
+  },
+  {
+    id: 19,
+    img: Alessandra,
+    capa: capaAlessandra,
+    nome: "Alessandra",
+    batismo: "2008",
+    pioneiro: "2009",
+    title: "Alegrias Duradouras e Amizades no Pioneirismo Regular",
+    biografia:
+      "Um dos desafios como pioneira regular foi conciliar o serviço de pioneira com o serviço secular. Mas conseguiu se manter no serviço e teve muitas alegrias, como fazer excelentes amizades que duram até hoje. Para cumprir seu requisito, ela faz uma programação semanal e procura seguir sugestões de irmãs experientes com respeito ao ministério e aos arranjos. Para ela, ser pioneira é maravilhoso, poder fazer parte de arranjos teocráticos que fortalecem sua relação com Jeová.",
+  },
+  {
+    id: 20,
+    img: Basilia,
+    capa: capaBasilia,
+
+    nome: "Basilia",
+    batismo: "",
+    pioneiro: "",
+    title: "Desafiando Limitações: A Alegria de Ser Pioneira",
+    biografia:
+      "Um dos desafios como pioneira foi não saber escrever e responder algumas perguntas. Mas, apesar disso, ser pioneira lhe trouxe muitas alegrias, como trabalhar com outras irmãs pioneiras nas reuniões de pioneira e na visita do superintendente. Ela diz que ser pioneira dá muita alegria, não tem palavras para descrever. Para cumprir o requisito, ela faz o seu melhor para ir no campo, no carrinho, testemunho informal e público na praça.",
+  },
+  {
+    id: 21,
+    img: Claudia,
+    capa: capaClaudia,
+    nome: "Claudia",
+    batismo: "1999",
+    pioneiro: "2008",
+    title: "Alegria na Adversidade: Pioneirismo e Trabalho Secular",
+    biografia:
+      "Trabalha secularmente e também cuida de seu pai e mãe. Para ela, o emprego secular sempre é um desafio, mas nunca deixou que isso atrapalhasse o seu desejo de ser pioneira. Apesar dos desafios, ser pioneira dá muitas alegrias a ela, como se sentir mais próxima de Jeová e conseguir dirigir pelo menos um estudo onde alguém progrediu até o batismo. Ser pioneira lhe dá alegria por poder dar de si numa obra tão importante. Para cumprir com seu serviço de pioneira, ela procura fazer sempre ajustes para continuar, participando nas modalidades de pregação da congregação e seguindo as orientações para adaptações ao pregar. Ela sente gratidão por essa modalidade ajudar a sempre achar uma maneira de fazer uma defesa do nome de Jeová de uma maneira constante.",
+  },
+  {
+    id: 22,
+    img: KellyCristina,
+    capa: capaKellyCristina,
+    nome: "Kelly Cristina",
+    batismo: "1999",
+    pioneiro: "2008",
+    title: "Conciliando Família, Trabalho e Pioneirismo com Gratidão",
+    biografia:
+      "Trabalha secularmente e cuida de seus pais. Para servir como pioneira, tinha alguns desafios, como conciliar trabalho secular, rotina doméstica e trabalho de tempo integral, além de um requisito de 70 horas. Mas conseguiu conciliar esses desafios e se manteve no serviço, o que lhe deu muitas alegrias. O serviço de pioneira a ajudou a se achegar e confiar mais em Jeová, vendo que Ele realmente ajuda a permanecer neste ministério. Ela diz que, especialmente nesta pandemia, viu a mão de Jeová a ajudando, pois sem os ajustes que a organização fez para ajudar, não seria possível ter continuado, pelo menos por um tempo. Ser pioneira é como sentir sua pele, faz parte dela, e ela se sente protegida, ocupada no ministério, sem tempo para coisas supérfluas que poderiam privar de Jeová.",
+  },
+  {
+    id: 30,
+    img: Samira,
+    capa: capaSamira,
+    nome: "Samira",
+    batismo: "2017",
+    pioneiro: "2023",
+    title:
+      "Jovem na Faculdade e Pioneira: Encontrando Felicidade na Adoração a Jeová",
+    biografia:
+      "Jovem terminou a fase escolar mas agora faz faculdade e trabalha. Conseguindo conciliar seu tempo com o serviço de pioneira, o que lhe traz grande felicidade. Ela diz que sente muito feliz de saber que está usando sua vida da melhor forma. Procura fazer uma programação semanal para cumprir o requisito de horas.",
+  },
+  {
+    id: 23,
+    img: Flavia,
+    capa: capaFlavia,
+    nome: "Flavia",
+    batismo: "1994",
+    pioneiro: "2002",
+    title:
+      "Mãe, Dona de Casa e Pioneira: Alegria e Gratidão na Jornada Pioneira",
+    biografia:
+      "Mãe, dona de casa e esposa. Um dos desafios no serviço foi logo no ano seguinte quando engravidou, e também quando o marido ficava desempregado era um grande desafio. Mas teve muitas alegrias, como ajudar outros a adorar a Jeová, e hoje sua filha está no mesmo caminho. O sentimento de ser pioneira para ela é alegria e gratidão, Jeová permitiu adorar a Ele. Para cumprir o requisito, ela faz uma programação semanal.",
+  },
+  {
+    id: 24,
+    img: Emily,
+    capa: capaEmily,
+    nome: "Emily",
+    batismo: "2020",
+    pioneiro: "2023",
+    title: "Saindo da Zona de Conforto: A Alegria de Ser Pioneira Regular",
+    biografia:
+      "Esposa dona de casa. Quis ser pioneira regular para poder fazer mais para Jeová e sair da sua zona de conforto. Ser pioneira dá muita alegria por estar lado a lado com os irmãos e podendo ajudar mais pessoas a aprender sobre Jeová. Ela sente muita satisfação por poder fazer mais para Jeová. Para cumprir com seu requisito, ela procura estar sempre no campo, no carrinho, apoiando as atividades e conta sempre com a ajuda de Jeová e das irmãs que a apoiam.",
+  },
+  {
+    id: 25,
+    img: Edileide,
+    capa: capaEdileide,
+    nome: "Edileide",
+    batismo: "2020",
+    pioneiro: "2023",
+    title:
+      "Pioneirismo com Cônjuge Descrente: A Alegria de Servir a Jeová Plenamente",
+    biografia:
+      "Esposa com cônjuge descrente. Como seu marido não é cristão, teve que fazer alguns ajustes nos seus horários para poder se dedicar mais na pregação e estudos. Ela sente uma alegria inesquecível de poder servir a Jeová plenamente como pioneira e poder sentir de perto o amor e cuidado de Jeová. Ser Pioneira a deixa muito feliz por estar usando o seu tempo da melhor forma possível, se esforçando para ajudar as pessoas a conhecer a Jeová. Para cumprir com sua programação, ela procura apoiar as atividades ministeriais, como campo, estudos e revistas, também apoiando as irmãs nas suas atividades durante a semana, e no sábado quando possível, visto que no fim de semana seu marido está em casa e ela fica com ele.",
+  },
+
+  {
+    id: 26,
+    img: Vania,
+    capa: capaVania,
+    nome: "Vania",
+    batismo: "1998",
+    pioneiro: "2009",
+    title:
+      "Persistência Pioneira ao Longo dos Anos: Superando Desafios com Alegria",
+    biografia:
+      "Um dos desafios foi o trabalho secular, e à noite ela ficou como pioneira por um tempo, depois parou, mas uns 4 anos depois em 2009 assinou novamente. Durante esse tempo até agora, o desafio maior foi quando ela teve a filha Allana, porque com um bebê pequeno não dá para expor ela sempre no tempo, que às vezes está frio demais, chovendo ou sol demais. Mas conseguiu se manter como pioneira, uma das ajudas foi com o requisito de horas reduzido. Sente muita alegria em não ter desistido, compartilhar as verdades da Bíblia e estar sempre com os irmãos. Para cumprir com seu requisito, ela faz uma programação semanal, aproveita bem os tempos quentes e tem a ajuda de seu marido para ficar com a filha enquanto ela vai em estudos e outras atividades.",
+  },
+  {
+    id: 27,
+    img: Amarildo,
+    capa: capaAmarildo,
+    nome: "Amarildo",
+    batismo: "1999",
+    pioneiro: "2014 (parou em 2018, voltou em 2023)",
+    title: "Trabalho Integral e Pioneirismo: Superando Desafios com Alegria",
+    biografia:
+      "Trabalha em período integral, conciliando com o serviço de pioneiro. Desafios superados com alegrias, como ajudar outros no caminho do batismo. Alegria e apoio de Jeová no trabalho. Programação inclui atividades durante a semana e aos finais de semana.",
+  },
+  {
+    id: 28,
+    img: Jeane,
+    capa: capaJeane,
+    nome: "Jeane",
+    batismo: "2003",
+    pioneiro: "2005",
+    title:
+      "Lidando com Desafios Iniciais e Sentindo o Amor de Jeová no Pioneirismo",
+    biografia:
+      "Desafios iniciais com a distância do território. Alegrias em lidar com desafios e sentir o amor de Jeová. Alegria em ajudar familiares a aceitar Jeová. Flexibilidade na programação para conciliar com trabalho externo.",
+  },
+  {
+    id: 29,
+    img: Capel,
+    capa: capaCapel,
+    nome: "Capel",
+    batismo: "1997",
+    pioneiro: "",
+    title:
+      "Casado, Servo e Pioneiro: Uma Jornada de Prazer no Serviço de Jeová",
+
+    biografia:
+      "Casado, servo no ministério e pioneiro regular. Para ele, sempre foi um prazer servir como pioneiro. Concilia trabalho secular com serviço no campo e atividades ministeriais. Aproveita todas as oportunidades que surgem.",
+  },
+];
